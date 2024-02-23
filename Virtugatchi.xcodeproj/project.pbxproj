@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBDE41D32B8840E900C0EB28 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DBDE41D22B8840E900C0EB28 /* RealityKitContent */; };
+		DBDE41D52B8840E900C0EB28 /* VirtugatchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE41D42B8840E900C0EB28 /* VirtugatchiApp.swift */; };
+		DBDE41D72B8840E900C0EB28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE41D62B8840E900C0EB28 /* ContentView.swift */; };
+		DBDE41D92B8840E900C0EB28 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE41D82B8840E900C0EB28 /* ImmersiveView.swift */; };
+		DBDE41DB2B8840EA00C0EB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDE41DA2B8840EA00C0EB28 /* Assets.xcassets */; };
+		DBDE41DE2B8840EA00C0EB28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDE41DD2B8840EA00C0EB28 /* Preview Assets.xcassets */; };
+		DBDE41E92B8840EA00C0EB28 /* VirtugatchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDE41E82B8840EA00C0EB28 /* VirtugatchiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBDE41E52B8840EA00C0EB28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBDE41C52B8840E800C0EB28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBDE41CC2B8840E800C0EB28;
+			remoteInfo = Virtugatchi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBDE41CD2B8840E800C0EB28 /* Virtugatchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Virtugatchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDE41D12B8840E900C0EB28 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		DBDE41D42B8840E900C0EB28 /* VirtugatchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtugatchiApp.swift; sourceTree = "<group>"; };
+		DBDE41D62B8840E900C0EB28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBDE41D82B8840E900C0EB28 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		DBDE41DA2B8840EA00C0EB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBDE41DD2B8840EA00C0EB28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBDE41DF2B8840EA00C0EB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDE41E42B8840EA00C0EB28 /* VirtugatchiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtugatchiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDE41E82B8840EA00C0EB28 /* VirtugatchiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtugatchiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBDE41CA2B8840E800C0EB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDE41D32B8840E900C0EB28 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDE41E12B8840EA00C0EB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBDE41C42B8840E800C0EB28 = {
+			isa = PBXGroup;
+			children = (
+				DBDE41CF2B8840E900C0EB28 /* Virtugatchi */,
+				DBDE41D02B8840E900C0EB28 /* Packages */,
+				DBDE41E72B8840EA00C0EB28 /* VirtugatchiTests */,
+				DBDE41CE2B8840E800C0EB28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBDE41CE2B8840E800C0EB28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE41CD2B8840E800C0EB28 /* Virtugatchi.app */,
+				DBDE41E42B8840EA00C0EB28 /* VirtugatchiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBDE41CF2B8840E900C0EB28 /* Virtugatchi */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE41D42B8840E900C0EB28 /* VirtugatchiApp.swift */,
+				DBDE41D62B8840E900C0EB28 /* ContentView.swift */,
+				DBDE41D82B8840E900C0EB28 /* ImmersiveView.swift */,
+				DBDE41DA2B8840EA00C0EB28 /* Assets.xcassets */,
+				DBDE41DF2B8840EA00C0EB28 /* Info.plist */,
+				DBDE41DC2B8840EA00C0EB28 /* Preview Content */,
+			);
+			path = Virtugatchi;
+			sourceTree = "<group>";
+		};
+		DBDE41D02B8840E900C0EB28 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE41D12B8840E900C0EB28 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		DBDE41DC2B8840EA00C0EB28 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE41DD2B8840EA00C0EB28 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBDE41E72B8840EA00C0EB28 /* VirtugatchiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBDE41E82B8840EA00C0EB28 /* VirtugatchiTests.swift */,
+			);
+			path = VirtugatchiTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBDE41CC2B8840E800C0EB28 /* Virtugatchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDE41EC2B8840EA00C0EB28 /* Build configuration list for PBXNativeTarget "Virtugatchi" */;
+			buildPhases = (
+				DBDE41C92B8840E800C0EB28 /* Sources */,
+				DBDE41CA2B8840E800C0EB28 /* Frameworks */,
+				DBDE41CB2B8840E800C0EB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Virtugatchi;
+			packageProductDependencies = (
+				DBDE41D22B8840E900C0EB28 /* RealityKitContent */,
+			);
+			productName = Virtugatchi;
+			productReference = DBDE41CD2B8840E800C0EB28 /* Virtugatchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBDE41E32B8840EA00C0EB28 /* VirtugatchiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBDE41EF2B8840EA00C0EB28 /* Build configuration list for PBXNativeTarget "VirtugatchiTests" */;
+			buildPhases = (
+				DBDE41E02B8840EA00C0EB28 /* Sources */,
+				DBDE41E12B8840EA00C0EB28 /* Frameworks */,
+				DBDE41E22B8840EA00C0EB28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBDE41E62B8840EA00C0EB28 /* PBXTargetDependency */,
+			);
+			name = VirtugatchiTests;
+			productName = VirtugatchiTests;
+			productReference = DBDE41E42B8840EA00C0EB28 /* VirtugatchiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBDE41C52B8840E800C0EB28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DBDE41CC2B8840E800C0EB28 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DBDE41E32B8840EA00C0EB28 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DBDE41CC2B8840E800C0EB28;
+					};
+				};
+			};
+			buildConfigurationList = DBDE41C82B8840E800C0EB28 /* Build configuration list for PBXProject "Virtugatchi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBDE41C42B8840E800C0EB28;
+			productRefGroup = DBDE41CE2B8840E800C0EB28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBDE41CC2B8840E800C0EB28 /* Virtugatchi */,
+				DBDE41E32B8840EA00C0EB28 /* VirtugatchiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBDE41CB2B8840E800C0EB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDE41DE2B8840EA00C0EB28 /* Preview Assets.xcassets in Resources */,
+				DBDE41DB2B8840EA00C0EB28 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDE41E22B8840EA00C0EB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBDE41C92B8840E800C0EB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDE41D72B8840E900C0EB28 /* ContentView.swift in Sources */,
+				DBDE41D52B8840E900C0EB28 /* VirtugatchiApp.swift in Sources */,
+				DBDE41D92B8840E900C0EB28 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBDE41E02B8840EA00C0EB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDE41E92B8840EA00C0EB28 /* VirtugatchiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBDE41E62B8840EA00C0EB28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBDE41CC2B8840E800C0EB28 /* Virtugatchi */;
+			targetProxy = DBDE41E52B8840EA00C0EB28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBDE41EA2B8840EA00C0EB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		DBDE41EB2B8840EA00C0EB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		DBDE41ED2B8840EA00C0EB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Virtugatchi/Preview Content\"";
+				DEVELOPMENT_TEAM = YAUTU8D735;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhtwonguyen.Virtugatchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		DBDE41EE2B8840EA00C0EB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Virtugatchi/Preview Content\"";
+				DEVELOPMENT_TEAM = YAUTU8D735;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhtwonguyen.Virtugatchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		DBDE41F02B8840EA00C0EB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAUTU8D735;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhtwonguyen.VirtugatchiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtugatchi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virtugatchi";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		DBDE41F12B8840EA00C0EB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YAUTU8D735;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhtwonguyen.VirtugatchiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Virtugatchi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Virtugatchi";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBDE41C82B8840E800C0EB28 /* Build configuration list for PBXProject "Virtugatchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDE41EA2B8840EA00C0EB28 /* Debug */,
+				DBDE41EB2B8840EA00C0EB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDE41EC2B8840EA00C0EB28 /* Build configuration list for PBXNativeTarget "Virtugatchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDE41ED2B8840EA00C0EB28 /* Debug */,
+				DBDE41EE2B8840EA00C0EB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBDE41EF2B8840EA00C0EB28 /* Build configuration list for PBXNativeTarget "VirtugatchiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDE41F02B8840EA00C0EB28 /* Debug */,
+				DBDE41F12B8840EA00C0EB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DBDE41D22B8840E900C0EB28 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DBDE41C52B8840E800C0EB28 /* Project object */;
+}
